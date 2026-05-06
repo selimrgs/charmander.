@@ -37,7 +37,7 @@ st.markdown("---")
 
 # 3. BOLUM: HAL FIYAT HESAPLAMA
 st.title("Hal Fiyat Hesaplama")
-site_url = st.text_input("Fiyat listesi URL:")
+site_url = st.text_input("https://www.batiakdeniztv.com/antalya-hal-fiyatlari")
 
 if site_url:
     try:
